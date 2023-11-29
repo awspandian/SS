@@ -1,3 +1,12 @@
+Conditionals # Arithmetic relational operators
+
+-lt (<)
+-gt (>)
+-le (<=)
+-ge (=>)
+-eg (==)
+-ne (!=)
+
 # refer belwo links for more 
 
 https://mywiki.wooledge.org/BashGuide/Patterns
