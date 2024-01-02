@@ -1,0 +1,150 @@
+Which Linux command with vi Editor is used to delete a single character?
+    The command "x" is used to delete a single character in vi Editor.
+
+Which Linux command is used to see the available disk space in each of the partitions in your system?
+   To see the available disk space in each of the partitions in your system, we can use "df" command.
+
+Which Linux command is used to see all the hidden files?
+   The "ls" command with argument "-a" can be used to see all the hidden files.
+
+Just like the Windows Search command, which command is used in Linux?
+  In Linux, the "locate" command is used to locate/search a file, just like the search command in Windows.
+
+Which is the correct command syntax to rename a file "abc.txt" to "pqr.txt"?
+  The correct command syntax to rename a file "abc.txt" to "pqr.txt" is: mv abc.txt pqr.txt
+
+Which is the correct command syntax to locate a file containing the words "hello" and "this"?
+  The correct command syntax to locate a file containing the words "hello" and "this": locate -i *hello*this
+
+Which Linux command is used to remove files?
+  The "rm" command is used to remove files in Linux.
+
+Which Linux command is used to go back from a folder to the folder before that?
+  To go back from a folder to the folder before that, we can use the Linux command "cd .." . Here, the two dots (..) represent back.
+
+Which Linux command is used to display the content of a file?
+  The "cat" command is used to display the content of a file in Linux.
+
+If you want any command to be done with administrative or root privileges, you can use the ___ command.
+  If you want any command to be done with administrative or root privileges, you can use the sudo command.
+
+The directory is a type of file?
+  Yes, the directory is a type of file.
+
+The "sudo" command stands for ___.
+  The "sudo" command stands for "superuser do".
+
+Which Linux command is used to move files through the command line?
+  The "mv" command is used to move files through the command line.
+
+If you want to create a new directory named XYZ, which command will be used for this purpose?
+  To create a new directory named XYZ, we can use "mkdir XYZ". The "mkdir" command is used to make a directory in Linux.
+
+Which Linux command is used to copy files through the command line?
+  The "cp" command is used to copy files through the command line.
+
+Which symbol represents the top-level directory?
+  The symbol "/" represents the top-level directory.
+
+Which Linux command is used to know which directory you are in?
+  To know which directory you are in, the "pwd" command can be used. The "pwd" command stands for "Present Working Directory". This command gives us the absolute path, which means the path that starts from the root.
+
+Which argument with locate command helps us to ignore the case while searching the file in the Linux system?
+  To ignore the case while searching the file in the Linux system we can use the argument "-i" with the "locate" command.
+
+Which symbol represents the user's home directory?
+  The symbol "~" represents the user's home directory.
+
+Who founded Linux Kernel?
+  Linus Torvalds founded Linux Kernel.
+
+What is the core of the Linux operating system?
+  The kernel is the core of the Linux operating system.
+
+Which Linux command is used to count the total number of lines, words, and characters contained in a file?
+  The "wc" command is used to count the number of lines, words, characters, and bytes of each given file or standard input and print the result.
+
+Which Linux command is used to give a full listing?
+  The "ls -F" command is used to see a full listing, indicating what type files are by putting a slash after directories and a star after executable files.
+
+Which is/are the directories that come under the Binary directory?
+  Binary directory contains following directories: /bin /sbin /lib /opt
+
+Which Linux command is used to create a new file?
+  The "touch" command is used to create a file.
+
+
+The command ___ decompresses a file like gunzip command.
+  The command "bunzip2" decompresses a file like gunzip command.
+
+The operator __ is used to redirect the output of a command to the file by erasing all existing data of that file.
+ The operator ">" is used to redirect the output of a command to the file by erasing all existing data of that file.
+
+Which Linux command is used to display the operating system name?
+  The "uname" command is used to display the operating system name.
+
+The operator __ is used to redirect the output of a command to the file without erasing all existing data of that file.
+  The operator ">>" is used to redirect the output of a command to the file without erasing all existing data of that file.
+
+It displays the current month's calendar with the current day highlighted.
+  The 'cal' term stands for the calendar. It displays the current month's calendar with the current day highlighted.
+
+OSS stands for ___.
+  OSS stands for "Open Source Software".
+
+Compressed files or zipped files can be viewed with the help of ___ command.
+  Compressed files or zipped files can be viewed with the help of 'zcat' command.
+
+Which is the correct syntax to print the file using the default printer with multiple copies in Linux?
+  The correct syntax to print the file using the default printer with multiple copies in Linux is: lp -d [printer_name] -n 5 [path or filename]
+
+Which Linux command is used to print a file?
+  The "lp" command is used to print a file.
+
+How many types of basic permissions to grant a user?
+  There are three basic permissions to grant a user, they are: read, write, and execute.
+
+Which Linux command is used to force all buffers to disk?
+  The "sync" command is used to force all buffers to disk.
+
+Which Linux command is used to identify file type?
+  The "file" command is used to identify the file type.
+
+Which keys are used to terminate the command execution in the command prompt?
+  Both the combination of the keys CTRL + C and CTRL + Pause/Break can be used to terminate the command execution in the command prompt.
+
+The ___ command gives you your IP address in your network.
+  The "hostname -I" command gives you your IP address in your network.
+
+The operators ">" and ">>" are known as ___.
+  The operators ">" and ">>" are known as Redirection operators.
+
+Which argument and value with "lp" command specify the page orientation while printing a file?
+  With "ls" command, we can use argument "-0" with value either "landscape" or "portrait" to specify the page orientation. Consider the below command syntax – lp -d [printer_name] -o landscape/portrait [path or filename]
+
+Which Linux command is used to clear the terminal if it gets filled up with too many commands?
+  The "clear" command is used to clear the terminal if it gets filled up with too many commands.
+
+How many types of users are in Linux?
+  In Linux, there are three types of users: super users, system users, and regular/normal users.
+
+The "od" command in Linux is used to convert the content of input in different formats with the octal format as the default format.
+  The named server is used with the BIND package. In Linux, the named service executes the DNS (Dynamic Name Service) server daemon. It converts hostnames to IP addresses and vice versa.
+
+Which Linux command is used to record a user login session in a file?
+  The "script" command is used to record a user login session in a file.
+
+Which Linux command displays "cat" command's output with syntax highlighting or colorizing?
+  The "ccat" command displays "cat" command's output with syntax highlighting or colorizing?
+
+The ___ command in Linux is used to convert the content of input in different formats with the octal format as the default format.
+  The "od" command in Linux is used to convert the content of input in different formats with the octal format as the default format.
+
+Which Linux command is used to check the computer's hostname?
+  The "hostname" command is used to check a computer's hostname in Linux.
+
+Which is the correct syntax to print the file using the default printer in Linux?
+  The correct syntax to print the file using the default printer in Linux is: lp -d [Printer_name] [path or filename]
+
+Which Linux command is used to check your connection to a server?
+  The "ping" command is used to check your connection to a server.
