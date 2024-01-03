@@ -148,3 +148,347 @@ Which is the correct syntax to print the file using the default printer in Linux
 
 Which Linux command is used to check your connection to a server?
   The "ping" command is used to check your connection to a server.
+
+
+What type of path is used to reference a file or directory relative to the current working directory?
+  Relative path is used to reference a file or directory relative to the current working directory
+
+What symbol is used to represent the current directory in a relative path?
+  The symbol '.' is used to represent the current directory in a relative path
+
+What symbol is used to represent the parent directory in a relative path?
+  The symbol '..' is used to represent the parent directory in a relative path
+
+What is the difference between an absolute path and a relative path?
+  An absolute path starts with the root directory while a relative path starts with the current directory
+
+What is the symbol used to represent the parent directory in an absolute path?
+  The symbol '/' is used to represent the parent directory in an absolute path
+
+What is the command used to change the current working directory to a specific directory using an absolute path?
+  The command 'cd /path/to/directory' is used to change the current working directory to a specific directory using an absolute path
+
+What is the command used to change the current working directory to the parent directory using a relative path?
+  The command 'cd ..' is used to change the current working directory to the parent directory using a relative path
+
+What does a fully qualified name contain?
+  A fully qualified name contain the path and the filename
+
+What is the syntax of a fully qualified name?
+  The syntax of a fully qualified name is '/path/to/file.txt'
+
+What is the difference between a relative path and a fully qualified name?
+  A relative path contains the file name only while a fully qualified name contains the path and the file name
+
+What is the command used to display the fully qualified name of a file or directory?
+  The command 'pwd' is used to display the fully qualified name of a file or directory
+
+What is the command used to display the current working directory?
+  The command 'pwd' is used to display the current working directory
+
+What is the command used to change the current working directory to the home directory?
+  The command 'cd ~' is used to change the current working directory to the home directory
+
+What is the command used to change the current working directory to the root directory?
+  The command 'cd /' is used to change the current working directory to the root directory
+
+What is the command used to change the current working directory to a specific directory using a relative path?
+  The command 'cd path/to/directory' is used to change the current working directory to a specific directory using a relative path
+
+What is the command used to change the current working directory to a specific directory using an absolute path?
+  The command 'cd /path/to/directory' is used to change the current working directory to a specific directory using an absolute path
+
+What is the command used to display the contents of a directory?
+  The command 'ls' is used to display the contents of a directory
+
+What is the command used to create a new file in the current working directory?
+  The command 'touch' is used to create a new file in the current working directory
+
+What is the difference between the command 'ls' and 'ls -l'?
+  ls -l shows the detailed information of the files in the directory
+
+What is the command used to change the current working directory to the parent directory?
+  The command 'cd ..' is used to change the current working directory to the parent directory
+
+What is the command used to display the contents of a directory in a column format?
+  The command 'ls -C' is used to display the contents of a directory in a column format
+
+What is the command used to change the access and modification timestamps of a file?
+  The command 'touch' is used to change the access and modification timestamps of a file
+
+What is the command used to display the current working directory and the username of the current user?
+  The command 'whoami' is used to display the username of the current user
+
+What is the command used to change the current working directory to the root directory and list the contents in a long format?
+  The command 'cd /;ls -l' is used to change the current working directory to the root directory and list the contents in a long format
+
+What is the command used to display the contents of a directory in a long format sorted by modification time?
+  The command 'ls -l --sort=time' is used to display the contents of a directory in a long format, sorted by modification time
+
+What is the command used to display the contents of a directory in a long format sorted by file size?
+  The command 'ls -S --sort=size' is used to display the contents of a directory in a long format, sorted by file size
+
+What is the command used to display the contents of a directory in a long format sorted by file name?
+  The command 'ls -l --sort=name' is used to display the contents of a directory in a long format, sorted by file name
+
+How can you check the current user's effective user ID in Red Hat Linux?
+  You can check the current user's effective user ID in Red Hat Linux by running the command 'id -u'
+
+How can you check the current user's group ID in Red Hat Linux?
+  You can check the current user's group ID in Red Hat Linux by running the command 'id -g'
+
+How can you display the current user's real and effective user and group IDs in Red Hat Linux?
+  You can display the current user's real and effective user and group IDs in Red Hat Linux by running the command 'id'
+
+How can you check the current user's username and all groups they belong to in Red Hat Linux?
+  You can check the current user's username and all groups they belong to in Red Hat Linux by running the command 'id -u -G'
+
+What command can you use to change the current user's password in Red Hat Linux?
+  You can change the current user's password in Red Hat Linux by running the command 'passwd'
+
+How can you change the password for a specific user in Red Hat Linux?
+  You can change the password for a specific user in Red Hat Linux by running the command 'passwd [username]'
+
+How can you force a user to change their password at their next login in Red Hat Linux?
+  You can force a user to change their password at their next login in Red Hat Linux by running the command 'passwd -e [username]'
+
+How can you check the status of the password aging for a user in Red Hat Linux?
+  You can check the status of the password aging for a user in Red Hat Linux by running the command 'passwd -S [username]'
+
+What command can you use to determine the file type in Red Hat Linux?
+  You can determine the file type in Red Hat Linux by running the command 'file [filename]'
+
+How can you view the content of a file in Red Hat Linux?
+  You can view the content of a file in Red Hat Linux by running the command 'cat [filename]'
+
+How can you display the permissions for a file in Red Hat Linux?
+  You can display the permissions for a file in Red Hat Linux by running the command 'ls -l [filename]'
+
+How can you change the permissions for a file in Red Hat Linux?
+  You can change the permissions for a file in Red Hat Linux by running the command 'chmod [permissions] [filename]'
+
+How can you display the owner and group of a file in Red Hat Linux?
+  You can display the owner and group of a file in Red Hat Linux by running the command 'ls -l [filename]'
+
+How can you change the owner of a file in Red Hat Linux?
+  You can change the owner of a file in Red Hat Linux by running the command 'chown [username] [filename]'
+
+How can you change the group of a file in Red Hat Linux?
+  You can change the group of a file in Red Hat Linux by running the command 'chgrp [groupname] [filename]'
+
+How can you display the number of hard links to a file in Red Hat Linux?
+  You can display the number of hard links to a file in Red Hat Linux by running the command 'ls -l [filename]'
+
+How can you display the last lines of a file in Red Hat Linux?
+  You can display the last lines of a file in Red Hat Linux by running the command 'tail [filename]'
+
+How can you display the first and last lines of a file in Red Hat Linux?
+  You can display the first and last lines of a file in Red Hat Linux by running the command 'head [filename];tail [filename]'
+
+How can you display the last 10 lines of a file in Red Hat Linux?
+  You can display the last 10 lines of a file in Red Hat Linux by running the command 'tail -n 10 [filename]'
+
+How can you display the first 10 lines of a file in Red Hat Linux?
+  You can display the first 10 lines of a file in Red Hat Linux by running the command 'head -n 10 [filename]'
+
+How can you follow the last lines of a file as it is being updated in Red Hat Linux?
+  You can follow the last lines of a file as it is being updated in Red Hat Linux by running the command 'tail -f [filename]'
+
+How can you display the last 20 lines and the number of lines in a file in Red Hat Linux?
+  You can display the last 20 lines and the number of lines in a file in Red Hat Linux by running the command 'tail -n 20 -l [filename]'
+
+How can you display the last 20 lines and the number of lines and bytes in a file in Red Hat Linux?
+  You can display the last 20 lines, the number of lines and bytes in a file in Red Hat Linux by running the command 'tail -n 20 -lc [filename]'
+
+How can you count the number of lines in a file in Red Hat Linux?
+  You can count the number of lines in a file in Red Hat Linux by running the command 'wc -l [filename]'
+
+How can you count the number of words in a file in Red Hat Linux?
+  You can count the number of words in a file in Red Hat Linux by running the command 'wc -w [filename]'
+
+How can you count the number of characters in a file in Red Hat Linux?
+  You can count the number of characters in a file in Red Hat Linux by running the command 'wc -c [filename]'
+
+What command can you use to continue a long command on another line in Red Hat Linux?
+  You can continue a long command on another line in Red Hat Linux by using the '' character at the end of the first line
+
+How can you continue a long command on another line using ampersand in Red Hat Linux?
+  You can continue a long command on another line in Red Hat Linux by using an ampersand '&' at the end of the first line
+
+How can you continue a long command on another line using new line in Red Hat Linux?
+  You can continue a long command on another line in Red Hat Linux by pressing the enter/return key after the first line
+
+What command can you use to display the history of commands in Red Hat Linux?
+  You can display the history of commands in Red Hat Linux by running the command 'history'
+
+How can you display the last 10 commands in the history?
+  You can display the last 10 commands in the history by running the command 'history 10'
+
+How can you display the commands in the history by a specific number range?
+  You can display the commands in the history by a specific number range by running the command 'history [start number]:[end number]'
+
+How can you display the commands in the history by a specific keyword?
+  You can display the commands in the history by a specific keyword by running the command 'history | grep [keyword]'
+
+Which Bash shortcut or command jumps to the beginning of the previous word on the command line?
+  You can jump to the beginning of the previous word on the command line by using the shortcut 'Pressing Ctrl+LeftArrow'
+
+Which Bash shortcut or command separates commands on the same line?
+  You can separate commands on the same line by using the command separator ';'
+
+Which Bash shortcut or command is used to clear characters from the cursor to the end of the command line?
+  You can clear characters from the cursor to the end of the command line by using the shortcut 'Pressing Ctrl+K'
+
+Which Bash shortcut or command is used to re-execute a recent command by matching the command name?
+  You can re-execute a recent command by matching the command name by using the shortcut '!string'
+
+Which Bash shortcut or command re-executes a specific command in the history list?
+  You can re-execute a specific command in the history list by using the shortcut '!number'
+
+Which Bash shortcut or command displays the list of previous commands?
+  You can display the list of previous commands by using the command 'history'
+
+Which Bash shortcut or command copies the last argument of previous commands?
+  You can copy the last argument of previous commands by using the shortcut 'Pressing Ctrl+K'
+
+How can you change the timezone in Red Hat Linux?
+  You can change the timezone in Red Hat Linux by running the command 'timedatectl set-timezone'
+
+How can you view the system log of date and time changes in Red Hat Linux?
+  You can view the system log of date and time changes in Red Hat Linux by running the command 'timedatectl log'
+
+How can you configure NTP service in Red Hat Linux?
+  You can configure NTP service in Red Hat Linux by running the command 'ntp -config'
+
+How can you check the status of the NTP service in Red Hat Linux?
+  You can check the status of the NTP service in Red Hat Linux by running the command 'ntp -status'
+
+How can you start the NTP service in Red Hat Linux?
+  You can start the NTP service in Red Hat Linux by running the command 'ntp -start'
+
+How can you stop the NTP service in Red Hat Linux?
+  You can stop the NTP service in Red Hat Linux by running the command 'ntp -stop'
+
+How can you set the hardware clock to the current system time in Red Hat Linux?
+  You can set the hardware clock to the current system time in Red Hat Linux by running the command 'hwclock -s'
+
+How can you set the system time to the current hardware clock time in Red Hat Linux?
+  You can set the system time to the current hardware clock time in Red Hat Linux by running the command 'hwclock -w'
+
+How can you compare the system time with the hardware clock time in Red Hat Linux?
+  You can compare the system time with the hardware clock time in Red Hat Linux by running the command 'hwclock -c'
+
+How can you view the system log of the NTP service in Red Hat Linux?
+  You can view the system log of the NTP service in Red Hat Linux by running the command 'ntplog'
+
+How can you set the date and time in the hardware clock to a specific value in Red Hat Linux?
+  You can set the date and time in the hardware clock to a specific value in Red Hat Linux by running the command 'hwclock -set'
+
+
+What is the directory that contains user home directories in the Linux file system hierarchy?
+  The directory that contains user home directories in the Linux file system hierarchy is '/home'
+
+What is the directory that contains temporary files in the Linux file system hierarchy?
+  The directory that contains temporary files in the Linux file system hierarchy is '/tmp'
+
+What is the directory that contains dynamic data such as for databases and websites in the Linux file system hierarchy?
+  The directory that contains dynamic data, such as for databases and websites in the Linux file system hierarchy is '/var'
+
+What is the administrative superuser's home directory in the Linux file system hierarchy?
+  The administrative superuser's home directory in the Linux file system hierarchy is '/root'
+
+What is the directory that contains regular commands and utilities in the Linux file system hierarchy?
+  The directory that contains regular commands and utilities in the Linux file system hierarchy is '/usr/bin'
+
+What is the directory that contains non-persistent process runtime data in the Linux file system hierarchy?
+  The directory that contains non-persistent process runtime data in the Linux file system hierarchy is '/run'
+
+What is the directory that contains installed software programs and libraries in the Linux file system hierarchy?
+  The directory that contains installed software programs and libraries in the Linux file system hierarchy is '/usr'
+
+What is the directory that contains software and application files in the Linux file system hierarchy?
+  The directory that contains software and application files in the Linux file system hierarchy is '/usr'
+
+What is the directory that contains the system's command binaries in the Linux file system hierarchy?
+  The directory that contains the system's command binaries in the Linux file system hierarchy is '/bin'
+
+What is the directory that contains library files in the Linux file system hierarchy?
+  The directory that contains library files in the Linux file system hierarchy is '/lib'
+
+What is the directory that contains user-specific configuration files in the Linux file system hierarchy?
+  The directory that contains user-specific configuration files in the Linux file system hierarchy is '/home/user'
+
+What is the directory that contains temporary files in the Linux file system hierarchy?
+  The directory that contains temporary files in the Linux file system hierarchy is '/tmp'
+
+What is the directory that contains system log files in the Linux file system hierarchy?
+  The directory that contains system log files in the Linux file system hierarchy is '/var/log'
+
+What is the directory that contains shared libraries in the Linux file system hierarchy?
+  The directory that contains shared libraries in the Linux file system hierarchy is '/lib'
+
+What is the directory that contains the software packages in the Linux file system hierarchy?
+  The directory that contains the software packages in the Linux file system hierarchy is '/opt'
+
+What is the directory that contains the system's startup scripts in the Linux file system hierarchy?
+  The directory that contains the system's startup scripts in the Linux file system hierarchy is '/etc/init.d'
+
+What is the directory that contains the system's device files in the Linux file system hierarchy?
+  The directory that contains the system's device files in the Linux file system hierarchy is '/dev'
+
+What is the directory that contains the system's process information files in the Linux file system hierarchy?
+  The directory that contains the system's process information files in the Linux file system hierarchy is '/proc'
+
+What is the directory that contains the system's mounted file systems in the Linux file system hierarchy?
+  The directory that contains the system's mounted file systems in the Linux file system hierarchy is '/mnt'
+
+What is the directory that contains the system's backup files in the Linux file system hierarchy?
+  The directory that contains the system's backup files in the Linux file system hierarchy is '/var/backup'
+
+What is the directory that contains the system's persistent data files in the Linux file system hierarchy?
+  The directory that contains the system's persistent data files in the Linux file system hierarchy is '/srv/data'
+
+What is the directory that contains the system's installed software in the Linux file system hierarchy?
+  The directory that contains the system's installed software in the Linux file system hierarchy is '/opt/software'
+
+What is the directory that contains the system's user home directories in the Linux file system hierarchy?
+  The directory that contains the system's user home directories in the Linux file system hierarchy is '/home'
+
+What is the directory that contains the system's run-time state information in the Linux file system hierarchy?
+  The directory that contains the system's run-time state information in the Linux file system hierarchy is '/run'
+
+What is the directory that contains the system's shared resources in the Linux file system hierarchy?
+  The directory that contains the system's shared resources in the Linux file system hierarchy is '/usr/share'
+
+What is the directory that contains the system's static files in the Linux file system hierarchy?
+  The directory that contains the system's static files in the Linux file system hierarchy is '/var/www/static'
+
+What is the top of the system's file system hierarchy in the Linux file system hierarchy?
+  The top of the system's file system hierarchy in the Linux file system hierarchy is '/'
+
+What is the directory that contains user home directories in the Linux file system hierarchy?
+  The directory that contains user home directories in the Linux file system hierarchy is '/home'
+
+What is the directory that contains temporary files in the Linux file system hierarchy?
+  The directory that contains temporary files in the Linux file system hierarchy is '/tmp'
+
+What is the directory that contains dynamic data such as for databases and websites in the Linux file system hierarchy?
+  The directory that contains dynamic data, such as for databases and websites in the Linux file system hierarchy is '/var'
+
+What is the administrative superuser's home directory in the Linux file system hierarchy?
+  The administrative superuser's home directory in the Linux file system hierarchy is '/root'
+
+What is the directory that contains regular commands and utilities in the Linux file system hierarchy?
+  The directory that contains regular commands and utilities in the Linux file system hierarchy is '/usr/bin'
+
+What is the directory that contains non-persistent process runtime data in the Linux file system hierarchy?
+  The directory that contains non-persistent process runtime data in the Linux file system hierarchy is '/run'
+
+What is the directory that contains installed software programs and libraries in the Linux file system hierarchy?
+  The directory that contains installed software programsand libraries in the Linux file system hierarchy is '/usr'
+
+What is the directory that contains persistent system-specific configuration data in the Linux file system hierarchy?
+  The directory that contains persistent, system-specific configuration data in the Linux file system hierarchy is '/etc'
+
+What is the top of the system's file system hierarchy in the Linux file system hierarchy?
+  The top of the system's file system hierarchy in the Linux file system hierarchy is '/'
